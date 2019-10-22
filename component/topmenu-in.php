@@ -3,7 +3,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-6 v_middle">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="images/logo.png" alt="logo image" class="img-fluid">
                                 </a>
                             </div>
@@ -89,19 +89,19 @@
                                                     <span class="lnr lnr-briefcase"></span>Withdrawals</a>
                                             </li> -->
                                             <li>
-                                                <a href="../cart.php">
+                                                <a href="../tugas2-web-lentera-studios/cart.php">
                                                     <span class="lnr lnr-cart"></span>Cart</a>
                                             </li>
                                             <li>
-                                                <a href="../paid.php">
+                                                <a href="../tugas2-web-lentera-studios/paid.php">
                                                     <span class="lnr lnr-cart"></span>Paid</a>
                                             </li>
                                             <li>
-                                                <a href="../top-up.php">
+                                                <a href="../tugas2-web-lentera-studios/top-up.php">
                                                     <span class="lnr lnr-cart"></span>Top Up</a>
                                             </li>
                                             <li>
-                                                <a href="../logout.php">
+                                                <a href="../tugas2-web-lentera-studios/logout.php">
                                                     <span class="lnr lnr-exit"></span>Log Out</a>
                                             </li>
                                         </ul>

@@ -39,6 +39,4 @@
                     include "component/topmenu-out.php";
                 }
             ?>
-    
-            <?php include "component/mainmenu.php"; ?>
         </div>

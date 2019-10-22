@@ -3,7 +3,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-6 v_middle">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="images/logo.png" alt="logo image" class="img-fluid">
                                 </a>
                             </div>
@@ -14,7 +14,7 @@
                                 <a href="register.php" class="author-area__seller-btn inline">Sign Up</a>
                                 <a href="login.php" class="author-area__seller-btn inline">Log In</a>
     
-                                <div class="author__notification_area">
+                                <div class="author__notification_area" style="visibility:hidden">
                                     <ul>
                                         <li class="has_dropdown">
                                             <div class="icon_wrap">
@@ -40,42 +40,6 @@
                                             </p>
                                             <p class="ammount">$20.45</p>
                                         </div>
-                                    </div>
-    
-                                    <div class="author__notification_area">
-                                        <ul>
-                                            <li>
-                                                <a href="notification.html">
-                                                    <div class="icon_wrap">
-                                                        <span class="lnr lnr-alarm"></span>
-                                                        <span class="notification_count noti">25</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-    
-                                            <li>
-                                                <a href="message.html">
-                                                    <div class="icon_wrap">
-                                                        <span class="lnr lnr-envelope"></span>
-                                                        <span class="notification_count msg">6</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-    
-                                            <li>
-                                                <a href="cart.html">
-                                                    <div class="icon_wrap">
-                                                        <span class="lnr lnr-cart"></span>
-                                                        <span class="notification_count purch">2</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-    
-                                    <div class="text-center">
-                                        <a href="signup.html" class="author-area__seller-btn inline">Become a Seller</a>
                                     </div>
                                 </div>
                             </div>

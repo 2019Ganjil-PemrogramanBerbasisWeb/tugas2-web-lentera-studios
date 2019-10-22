@@ -39,5 +39,5 @@
   } else {
     echo "Gagal";
   }
-  header("location:../paid.php");
+  header("location:../tugas2-web-lentera-studios/paid.php");
 ?>

@@ -1,10 +1,10 @@
 <?php
     session_start();
     if ($_SESSION['status'] != "login"){
-        header("location:../login.php?redirect=Yes&redirPage=function/comp-register.php?comID=".$_REQUEST['id']);
+        header("location:../tugas2-web-lentera-studios/login.php?redirect=Yes&redirPage=function/comp-register.php?comID=".$_REQUEST['id']);
     }
 
-    include "../dbConnect.php";
+    include "../tugas2-web-lentera-studios/dbConnect.php";
 
     $compID = $_REQUEST['comID'];
     $userID = $_SESSION['user_id'];
@@ -27,10 +27,10 @@
         }
 
         if ($connect->query($regComp) == TRUE) {
-        header("location:../competition.php?id=".$_REQUEST['comID']);
+        header("location:../tugas2-web-lentera-studios/competition.php?id=".$_REQUEST['comID']);
         } else {
         echo "Gagal";
         }
     }
-    header("location:../cart.php");
+    header("location:../tugas2-web-lentera-studios/cart.php");
 ?>
