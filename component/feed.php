@@ -12,7 +12,7 @@
                     <div class='product product--card'>
 
                         <div class='product__thumbnail'>
-                            <img src='images/p1.jpg' alt='Product Image'>
+                            <img src='image/abstract-1.png' alt='Product Image'>
                             <div class='prod_btn'>
                                 <a href='competition.php?id=".$getData['comp_id']."' class='transparent btn--sm btn--round'>More Info</a>
                             </div>
