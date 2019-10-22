@@ -68,7 +68,7 @@
                                         <a href="pass-recovery.html">username</a> or
                                         <a href="pass-recovery.html">password</a>?</p>
                                     <p class="signup">Don't have an
-                                        <a href="../register.php">account</a>?</p>
+                                        <a href="../tugas2-web-lentera-studios/register.php">account</a>?</p>
                                 </div>
                             </div>
                             <!-- end .login--form -->

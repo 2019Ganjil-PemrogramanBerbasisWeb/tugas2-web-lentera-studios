@@ -32,8 +32,15 @@
                         <div class="cardify signup_form">
                             <div class="login--header">
                                 <h3>Create Your Account</h3>
-                                <p>Be our family
-                                </p>
+                                <?php
+                                    if ($_REQUEST['register'] == "Failed"){
+                                        if($_REQUEST['blank'] == "Name") echo "<p>Nama tidak boleh kosong<p>";
+                                        if($_REQUEST['blank'] == "Email") echo "<p>Email tidak boleh kosong<p>";
+                                        if($_REQUEST['blank'] == "Username") echo "<p>Username tidak boleh kosong<p>";
+                                        if($_REQUEST['blank'] == "Password") echo "<p>Password tidak boleh kosong<p>";
+                                    } else{echo "<p>Be our family</p>";}
+                                ?>
+                                
                             </div>
                             <!-- end .login_header -->
 
@@ -63,7 +70,7 @@
 
                                 <div class="login_assist">
                                     <p>Already have an account?
-                                        <a href="../login.php">Login</a>
+                                        <a href="../tugas2-web-lentera-studios/login.php">Login</a>
                                     </p>
                                 </div>
                             </div>

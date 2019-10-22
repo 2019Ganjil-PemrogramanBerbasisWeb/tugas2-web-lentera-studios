@@ -8553,7 +8553,7 @@ span.counter {
 *****************************************/
 .promotion-area {
   padding: 140px 0;
-  background: url("../images/bundlebg.jpg");
+  background: url("../tugas2-web-lentera-studios/images/bundlebg.jpg");
   -webkit-background-size: cover;
           background-size: cover;
 }
@@ -9078,7 +9078,7 @@ span.counter {
 }
 
 #product-details ul li:before {
-  content: url("../images/check.png");
+  content: url("../tugas2-web-lentera-studios/images/check.png");
   margin-right: 15px;
 }
 
