@@ -1,6 +1,7 @@
 <?php
     error_reporting(0);
 
+    include "logged-in-check.php";
     include "header.php";
 ?>
             <section class='breadcrumb-area'>
