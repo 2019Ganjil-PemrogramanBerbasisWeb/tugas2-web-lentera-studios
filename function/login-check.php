@@ -2,7 +2,7 @@
     error_reporting(0);
     session_start();
 
-    include "../tugas2-web-lentera-studios/dbConnect.php";
+    include "../dbConnect.php";
 
     $username = $_POST['username'];
     $password = md5($_POST['password']);
@@ -19,15 +19,15 @@
             $_SESSION['balance'] = $getData['balance'];
         }
         if($_REQUEST['redirect'] == 'Yes'){
-            header('location:../tugas2-web-lentera-studios/'.$_REQUEST['redirPage']);
+            header('location:../'.$_REQUEST['redirPage']);
         }else {
-            header("location:../tugas2-web-lentera-studios/");
+            header("location:../");
         }
     } else {
         if($_REQUEST['redirect'] == 'Yes'){
-            header('location:../tugas2-web-lentera-studios/login.php?login=Failed&redirect=Yes&redirPage='.$_REQUEST['redirPage']);
+            header('location:../login.php?login=Failed&redirect=Yes&redirPage='.$_REQUEST['redirPage']);
         }else {
-            header("location:../tugas2-web-lentera-studios/login.php?login=Failed");
+            header("location:../login.php?login=Failed");
         }
     }
 ?>
