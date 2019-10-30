@@ -4,6 +4,7 @@
 
     include "../dbConnect.php";
 
+    $user = 'admin';
     $username = $_POST['username'];
     $password = md5($_POST['password']);
 
@@ -13,6 +14,11 @@
     if($userDataSummary > 0){
         $_SESSION['username'] = $username;
         $_SESSION['status'] = 'login';
+        if (isset($_POST['remember']))
+           {
+              $time = time();
+              setcookie('login', $user, $time + 3600);
+           }
         foreach ($userData as $getData) {
             $_SESSION['user_id'] = $getData['user_id'];
             $_SESSION['name'] = $getData['name'];
