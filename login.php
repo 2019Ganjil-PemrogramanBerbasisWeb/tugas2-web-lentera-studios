@@ -53,8 +53,8 @@
 
                                 <div class="form-group">
                                     <div class="custom_checkbox">
-                                        <input type="checkbox" id="ch2">
-                                        <label for="ch2">
+                                        <label for="remember">
+                                            <input type="checkbox" id="remember" name="remember" value="true">
                                             <span class="shadow_checkbox"></span>
                                             <span class="label_text">Remember me</span>
                                         </label>
