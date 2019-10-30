@@ -4,7 +4,7 @@
                         <div class="col-lg-3 col-md-3 col-6 v_middle">
                             <div class="logo">
                                 <a href="index.php">
-                                    <img src="image/logo.png" alt="logo image" class="img-fluid">
+                                    <img src="image/logo.png" alt="logo image" class="img-fluid" style="max-height:40px">
                                 </a>
                             </div>
                         </div>
