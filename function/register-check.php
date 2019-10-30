@@ -5,9 +5,7 @@
 	$password = md5(addslashes(trim($_POST['password'])));
 	$userID = uniqid();
 
-	echo $_SERVER["SERVER_ADDR"]."/tugas2-web-lentera-studios/dbConnect.php";
-
-	include $_SERVER["SERVER_ADDR"]."/tugas2-web-lentera-studios/dbConnect.php";
+	include "/dbConnect.php";
 	$newUser = "INSERT INTO user (user_id, name, email, username, password) VALUES ('$userID', '$name', '$email', '$username', '$password')";
 
 	if($name == "") header("location:../tugas2-web-lentera-studios/register.php?register=Failed&blank=Name");
