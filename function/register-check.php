@@ -1,9 +1,9 @@
 <?php
-	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$username = $_POST['username'];
-	$password = md5($_POST['password']);
-	$userID = uniqid();
+	$name = addslashes(trim($_POST['name']));
+	$email = addslashes(trim($_POST['email']));
+	$username = addslashes(trim($_POST['username']));
+	$password = md5(addslashes(trim($_POST['password'])));
+	$userID = addslashes(trim(uniqid();
 
 	include "../tugas2-web-lentera-studios/dbConnect.php";
 	$newUser = "INSERT INTO user (user_id, name, email, username, password) VALUES ('$userID', '$name', '$email', '$username', '$password')";
