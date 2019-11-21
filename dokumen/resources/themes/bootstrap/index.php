@@ -72,7 +72,7 @@
         </div>
 
         <div id="page-content" class="container">
-            <form enctype="multipart/form-data" action="upload-checker.php" method="post">
+            <form enctype="multipart/form-data" action="../upload-checker.php" method="post">
                 <input type="file" name="fileToUpload" id="fileToUpload"/>
                 <input type="submit" value="Upload" name="submit" />
             </form>
