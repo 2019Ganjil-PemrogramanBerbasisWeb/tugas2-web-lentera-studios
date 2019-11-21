@@ -11,6 +11,7 @@
     
                         <div class="col-lg-8 offset-lg-1 col-md-9 col-6 v_middle">
                             <div class="author-area">
+                                <a href="dokumen" class="author-area__seller-btn inline">File Upload</a>
                                 <a href="register.php" class="author-area__seller-btn inline">Sign Up</a>
                                 <a href="login.php" class="author-area__seller-btn inline">Log In</a>
     
