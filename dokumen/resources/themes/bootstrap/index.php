@@ -29,7 +29,6 @@
     </head>
 
     <body>
-        <?php include "../header.php" ?>
         <div id="page-navbar" class="navbar navbar-default navbar-fixed-top">
             <div class="container">
 
