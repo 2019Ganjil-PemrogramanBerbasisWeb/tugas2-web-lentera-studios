@@ -96,10 +96,18 @@
             </div>
 
             <ul id="directory-listing" class="nav nav-pills nav-stacked">
-                <?php foreach (array_filter(glob('/*'), 'is_file') as $file)
-{
-    echo $file;
-}?>
+                <?php
+                    $filelist = array();
+                    if ($handle = opendir(".")) {
+                        while ($entry = readdir($handle)) {
+                            if (is_file($entry)) {
+                                $filelist[] = $entry;
+                                echo "cok";
+                            }
+                        }
+                        closedir($handle);
+                    }
+                ?>
                 <?php foreach($dirArray as $name => $fileInfo): ?>
                     <li data-name="<?php echo $name; ?>" data-href="<?php echo $fileInfo['url_path']; ?>">
                         <a href="http://10.161.20.20/tugas2-web-mini/index.php" class="clearfix" data-name="COBA" download>
