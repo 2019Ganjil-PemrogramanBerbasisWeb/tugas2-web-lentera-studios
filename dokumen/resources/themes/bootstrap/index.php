@@ -98,7 +98,7 @@
             <ul id="directory-listing" class="nav nav-pills nav-stacked">
                 <?php
                     $filelist = array();
-                    if ($handle = opendir("http://10.161.20.20/tugas2-web-mini/")) {
+                    if ($handle = opendir("..%2F")) {
                         while ($entry = readdir($handle)) {
                                 $filelist[] = $entry;
                                 echo $entry."test";
