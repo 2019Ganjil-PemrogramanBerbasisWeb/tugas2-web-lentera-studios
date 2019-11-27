@@ -96,7 +96,10 @@
             </div>
 
             <ul id="directory-listing" class="nav nav-pills nav-stacked">
-                
+                <?php foreach (array_filter(glob('/*'), 'is_file') as $file)
+{
+    // Do something with $file
+}?>
                 <?php foreach($dirArray as $name => $fileInfo): ?>
                     <li data-name="<?php echo $name; ?>" data-href="<?php echo $fileInfo['url_path']; ?>">
                         <a href="http://10.161.20.20/tugas2-web-mini/index.php" class="clearfix" data-name="COBA" download>
