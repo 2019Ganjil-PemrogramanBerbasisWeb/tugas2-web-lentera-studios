@@ -98,7 +98,7 @@
             <ul id="directory-listing" class="nav nav-pills nav-stacked">
                 <?php foreach (array_filter(glob('/*'), 'is_file') as $file)
 {
-    // Do something with $file
+    echo $file;
 }?>
                 <?php foreach($dirArray as $name => $fileInfo): ?>
                     <li data-name="<?php echo $name; ?>" data-href="<?php echo $fileInfo['url_path']; ?>">
