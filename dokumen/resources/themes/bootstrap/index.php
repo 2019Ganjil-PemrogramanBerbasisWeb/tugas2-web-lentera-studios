@@ -101,7 +101,7 @@
                     if ($handle = opendir(".")) {
                         while ($entry = readdir($handle)) {
                                 $filelist[] = $entry;
-                                echo $entry;
+                                echo $entry."test";
                         }
                         closedir($handle);
                     }
