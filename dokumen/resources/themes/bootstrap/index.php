@@ -98,7 +98,7 @@
             <ul id="directory-listing" class="nav nav-pills nav-stacked">
                 <?php
                     $filelist = array();
-                    if ($handle = opendir(".")) {
+                    if ($handle = opendir("../")) {
                         while ($entry = readdir($handle)) {
                                 $filelist[] = $entry;
                                 echo $entry."test";
