@@ -108,7 +108,7 @@
                 ?>
                 <?php foreach($dirArray as $name => $fileInfo): ?>
                     <li data-name="<?php echo $name; ?>" data-href="<?php echo $fileInfo['url_path']; ?>">
-                        <a href="http://10.161.20.20/tugas2-web-mini/index.php" class="clearfix" data-name="COBA" download>
+                        <a href="F:\Web Development\XAMPP\htdocs\tugas2-web-mini\" class="clearfix" data-name="COBA" download>
                         <a href="<?php echo $fileInfo['url_path']; ?>" class="clearfix" data-name="<?php echo $name; ?>" download>
 
 
