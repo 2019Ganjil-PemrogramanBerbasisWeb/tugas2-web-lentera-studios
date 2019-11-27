@@ -100,9 +100,8 @@
                     $filelist = array();
                     if ($handle = opendir(".")) {
                         while ($entry = readdir($handle)) {
-                            if (is_file($entry)) {
+                            if (strpos($entry, "te") === 0) {
                                 $filelist[] = $entry;
-                                echo "cok";
                             }
                         }
                         closedir($handle);
